@@ -1,12 +1,16 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { PhotoGeneratorForm } from "@/components/forms/PhotoGeneratorForm";
+import { TipsSidebar } from "@/components/tips/TipsSidebar";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="flex">
+      <div className="px-0 py-10">
+        <h1 className="text-[32px] font-semibold mb-[30px]">
+          Generate a Photo
+        </h1>
+        <PhotoGeneratorForm />
       </div>
+      <TipsSidebar />
     </div>
   );
 };
