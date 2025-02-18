@@ -1,10 +1,11 @@
+
 import { SearchInput } from "../ui/SearchInput";
 import { NotificationBadge } from "../ui/NotificationBadge";
 import { UserProfile } from "../ui/UserProfile";
 
 export const Header = () => {
   return (
-    <header className="flex items-center h-[70px] bg-white -mx-5 my-0 px-5 py-0 max-sm:px-2.5 max-sm:py-0">
+    <header className="flex items-center h-[70px] bg-[#FDD849] -mx-5 my-0 px-5 py-0 max-sm:px-2.5 max-sm:py-0">
       <SearchInput />
       <div className="flex items-center gap-[25px] max-sm:gap-[15px]">
         <div className="flex items-center gap-4 text-sm text-[#646464] font-semibold">
